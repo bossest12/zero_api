@@ -180,6 +180,7 @@ RUN pip install --no-cache-dir --upgrade pip && \
     pip install playwright && \
     pip install jsonschema && \
     pip install dotenv
+
 # Create the appuser 
 RUN useradd -m appuser 
 
